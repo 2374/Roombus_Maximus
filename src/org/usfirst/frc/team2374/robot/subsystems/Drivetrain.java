@@ -18,7 +18,7 @@ import edu.wpi.first.wpilibj.Talon;
 public class Drivetrain extends Subsystem {
 	
 	private RobotDrive robotDrive;
-	private Talon left1, left2, right1, right2, left3;
+	private Talon left1, left2, right1, right2;
 	
 	public Drivetrain() {
 		left1 = new Talon(RobotMap.TALON_LEFT_1);
